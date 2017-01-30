@@ -13,7 +13,7 @@ var feed = {
     var result = {};
     var apikeystr = ""; if (feed.apikey!="") apikeystr = "?apikey="+feed.apikey;
     
-    $.ajax({ url: path+"feed/list.json"+apikeystr, dataType: 'json', async: false, success: function(data) {result = data;} });
+    $.ajax({ url: "http://localhost:81/emoncms/feed/list.json"+apikeystr, dataType: 'json', async: false, success: function(data) {result = data;} });
     return result;
   },
   

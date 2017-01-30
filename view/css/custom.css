@@ -50,3 +50,22 @@ ul.dropdown-menu li a:first-letter {
    cursor: pointer;
 }
 .modal-dialog {z-index: 1050;}
+
+ul.nav-stacked ul.nav-stacked > li > a {
+  padding-left: 30px;
+}
+
+.nav-container {
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+.contenedor-proyecto {
+	float: left;
+	width: 270px;
+	height: 86px;
+	cursor: pointer;
+	border: 1px solid rgba(0, 0, 0, 0.1);
+	padding: 10px;
+	margin: 10px 10px 10px 10px;
+}
